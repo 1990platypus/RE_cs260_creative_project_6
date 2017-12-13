@@ -1,0 +1,335 @@
+nohup: ignoring input
+before / Route
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T09:37:12.460Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m21.576 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m6.668 ms - 735[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.007 ms - 111[0m
+[0mGET /a2billing/agent/Public/index.php [33m404 [0m2.315 ms - 201[0m
+[0mGET /recordings/index.php [33m404 [0m1.881 ms - 201[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T12:10:18.156Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.870 ms - 28[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T01:01:51.475Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m3.002 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.835 ms - 735[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.256 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m1.738 ms - 201[0m
+/signup Route
+[0mGET /signup [32m200 [0m1.756 ms - 783[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.407 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+(node:3634) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m41.842 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T01:02:02.487Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Authenticated as What',
+  user: '5a2957ead06974320ea95d25',
+  username: 'What' }
+/ Route if user
+[0mGET / [32m200 [0m4.168 ms - 782[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.763 ms - -[0m
+[0mGET /javascripts/my_app.js [32m200 [0m1.721 ms - 401[0m
+[0mGET /user/profile [32m200 [0m8.324 ms - 140[0m
+/user Route
+[0mGET /user [32m200 [0m1.612 ms - 1224[0m
+[0mGET /javascripts/my_app.js [36m304 [0m10.180 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m10.173 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.009 ms - -[0m
+[0mPOST /user/update [36m302 [0m5.293 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m2.522 ms - 1216[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.830 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.776 ms - -[0m
+[0mGET /user/profile [32m200 [0m2.573 ms - 153[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T01:02:11.662Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'User Updated.',
+  user: '5a2957ead06974320ea95d25',
+  username: 'What',
+  color: 'Purple' }
+/ Route if user
+[0mGET / [32m200 [0m1.221 ms - 780[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.486 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.859 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.378 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m2.236 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.742 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.767 ms - -[0m
+login
+{ _id: 5a2957ead06974320ea95d25,
+  email: '',
+  hashed_password: '+lH9Sav2dwXWo10YIYwRX/VjOuwfnr/cnV1JVkFvV/Y=',
+  username: 'What',
+  __v: 0,
+  color: 'Purple' }
+[0mPOST /login [36m302 [0m5.863 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-07T01:02:22.022Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a2957ead06974320ea95d25',
+  username: 'What',
+  msg: 'Authenticated as What',
+  color: 'Purple' }
+/ Route if user
+[0mGET / [32m200 [0m1.032 ms - 788[0m
+[0mGET /stylesheets/style.css [36m304 [0m12.956 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m12.921 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.852 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-08T02:57:05.031Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.933 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.737 ms - 735[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.510 ms - 111[0m
+[0mGET /favicon.ico [33m404 [0m2.918 ms - 201[0m
+/signup Route
+[0mGET /signup [32m200 [0m0.891 ms - 783[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.789 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m4.504 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-08T02:57:18.528Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Authenticated as Bob',
+  user: '5a2ac46ed06974320ea95d26',
+  username: 'Bob' }
+/ Route if user
+[0mGET / [32m200 [0m0.954 ms - 780[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.762 ms - -[0m
+[0mGET /javascripts/my_app.js [32m200 [0m1.046 ms - 401[0m
+[0mGET /user/profile [32m200 [0m1.273 ms - 148[0m
+/user Route
+[0mGET /user [32m200 [0m0.780 ms - 1223[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.152 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.670 ms - -[0m
+[0mGET /user/profile [36m304 [0m3.929 ms - -[0m
+[0mPOST /user/update [36m302 [0m3.042 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m0.708 ms - 1216[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.772 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.291 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.928 ms - 163[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-06T09:31:56.440Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m1.317 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m2.704 ms - 735[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.729 ms - -[0m
+[0mPOST /login [36m302 [0m4.518 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.837 ms - 736[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.695 ms - -[0m
+/signup Route
+[0mGET /signup [32m200 [0m1.973 ms - 784[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.441 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m1.837 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-13T01:39:03.825Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  msg: 'Authenticated as rob',
+  user: '5a314997d06974320ea95d27',
+  username: 'rob' }
+/ Route if user
+[0mGET / [32m200 [0m2.903 ms - 780[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.985 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m5.164 ms - -[0m
+[0mGET /user/profile [32m200 [0m2.265 ms - 160[0m
+/logout Route
+[0mGET /logout [36m302 [0m0.849 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.377 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.745 ms - -[0m
+login
+{ _id: 5a314997d06974320ea95d27,
+  email: 'robert.j.erickson@byu.edu',
+  hashed_password: 'q9y1gVen87QKkUJXvn1hjS/AljBVlxG2xxo51QC4ztI=',
+  username: 'rob',
+  __v: 0 }
+[0mPOST /login [36m302 [0m3.241 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-13T01:39:12.215Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a314997d06974320ea95d27',
+  username: 'rob',
+  msg: 'Authenticated as rob' }
+/ Route if user
+[0mGET / [36m304 [0m2.622 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.384 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.345 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.179 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m1.243 ms - 1223[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.475 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.347 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.191 ms - -[0m
+[0mPOST /user/update [36m302 [0m2.406 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m1.244 ms - 1216[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.154 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.138 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.255 ms - 175[0m
+[0mPOST /user/update [36m302 [0m2.095 ms - 54[0m
+/user Route
+[0mGET /user [36m304 [0m0.762 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.321 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.281 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.185 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-13T01:42:24.799Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a314997d06974320ea95d27',
+  username: 'rob',
+  msg: 'User Updated.',
+  color: 'blue' }
+/ Route if user
+[0mGET / [32m200 [0m0.992 ms - 777[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.320 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.412 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.166 ms - -[0m
+/logout Route
+[0mGET /logout [36m302 [0m0.849 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.642 ms - 721[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.712 ms - -[0m
+/login Route
+[0mGET /login [36m304 [0m0.698 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.696 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-13T05:14:44.169Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true } }
+/ Route else user
+[0mGET / [36m302 [0m0.694 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m0.658 ms - 735[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.408 ms - -[0m
+login
+{ _id: 5a314997d06974320ea95d27,
+  email: 'robert.j.erickson@byu.edu',
+  hashed_password: 'q9y1gVen87QKkUJXvn1hjS/AljBVlxG2xxo51QC4ztI=',
+  username: 'rob',
+  __v: 0,
+  color: 'blue' }
+[0mPOST /login [36m302 [0m2.431 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-13T05:15:09.254Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a314997d06974320ea95d27',
+  username: 'rob',
+  msg: 'Authenticated as rob',
+  color: 'blue' }
+/ Route if user
+[0mGET / [32m200 [0m0.895 ms - 784[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.369 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.337 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.088 ms - -[0m
+/user Route
+[0mGET /user [32m200 [0m0.688 ms - 1223[0m
+[0mGET /stylesheets/style.css [36m304 [0m4.299 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m1.603 ms - -[0m
+[0mGET /user/profile [36m304 [0m3.167 ms - -[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2018-01-13T05:15:18.444Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  user: '5a314997d06974320ea95d27',
+  username: 'rob',
+  msg: 'Authenticated as rob',
+  color: 'blue' }
+/ Route if user
+[0mGET / [36m304 [0m0.939 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.726 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m0.630 ms - -[0m
+[0mGET /user/profile [36m304 [0m1.797 ms - -[0m
